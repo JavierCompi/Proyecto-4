@@ -1,0 +1,56 @@
+/* src/components/Hero.css */
+.hero {
+  background-color: #4B0082; 
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Presentación {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Presentación-texto {
+  color: white;
+  flex: 1;
+}
+
+.Presentación-texto .hello {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Presentación-texto h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #DA70D6;
+}
+
+.Presentación-texto h1 span {
+  color: #DA70D6;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Presentación-imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Presentación-imagen img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}

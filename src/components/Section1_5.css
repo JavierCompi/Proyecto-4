@@ -1,0 +1,39 @@
+.section1-5 {
+  background-color: #C7E5FF;
+  padding: 2rem;
+  text-align: center;
+  color: #03045E;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #DA70D6;
+  margin: 0;
+}
+
+.tab.active {
+  color: #03045E;
+  text-decoration: underline;
+}
+
+.tab-content h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.75rem;
+}
+
+.tab-content p {
+  margin: 0 0 1.5rem;
+  font-size: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

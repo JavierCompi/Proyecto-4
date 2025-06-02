@@ -1,0 +1,20 @@
+.section-1 {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #03045E;
+  margin-bottom: 20px;
+}
+
+.sobre-mi {
+  font-size: 18px;
+  color: #03045E;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

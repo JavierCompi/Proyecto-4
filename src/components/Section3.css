@@ -1,0 +1,47 @@
+.contact-section {
+  background-color: #4B0082; 
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.contacta {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E6CCF2;
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.formulario button {
+  background-color: #3B007D;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
