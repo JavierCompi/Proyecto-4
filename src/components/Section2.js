@@ -22,7 +22,7 @@ export function Section2() {
   const slider = document.createElement('div');
   slider.classList.add('slider');
 
-  // Lista de proyectos
+  // Mostrador 
   const projects = [
     {
       titulo: 'Landing Page',
@@ -51,7 +51,7 @@ export function Section2() {
     }
   ];
 
-  // Generar tarjetas de proyecto
+  // Inicio de los proyectos 
   projects.forEach(({ titulo, descripcion, link }) => {
     const card = document.createElement('div');
     card.classList.add('project-card');
@@ -65,7 +65,7 @@ export function Section2() {
     slider.appendChild(card);
   });
 
-  // Eventos para mover el slider
+  //  para el slaider ( barra letal )
   leftArrow.addEventListener('click', () => {
     slider.scrollBy({ left: -300, behavior: 'smooth' });
   });
